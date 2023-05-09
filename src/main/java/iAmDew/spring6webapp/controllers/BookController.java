@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class BookController {
-
     private final BookService bookService;
 
     public BookController(BookService bookService) {
